@@ -4,10 +4,34 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 body{
-    background-image: url(images/background.jpg);
     max-width: 100%;
     overflow-x: hidden;
+    background-image: url(images/background.jpg);
+}
+
+
+.dark{
+    background-color: black !important;
+    color:white !important;
+    background-image:none !important;
+}
+
+.lightDark
+{
+    background-color: rgba(0, 0, 0, 0) !important;
+    color:white !important; 
+}
+
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
 }
 
 .heading
@@ -36,8 +60,6 @@ h2{
 {
     margin: 50px 0 0 620px;
     color:black;
-    /* font-family: "Times New Roman"; */
-    
 }
 
 .subsubHeading
@@ -45,7 +67,9 @@ h2{
     color:black;   
 }
 
-
+.textCrypto{
+    color:white;
+}
 
 h3{
     margin-left: 600px;
@@ -62,14 +86,6 @@ h3{
     border-radius: 5px;
 }
 
-.containerTwo{
-    margin:50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-}
-
 
 .container .coin-price{
     display: flex;
@@ -78,7 +94,6 @@ h3{
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 5px 10px;
-    /* box-shadow: 0 0 3px rgb(15, 3, 3); */
     margin: 100px;
 }
 
@@ -93,6 +108,7 @@ h3{
     display: block;
 }
 .container .coin-price div h1{
+    color:black;
     font-size: 20px;
 }
 

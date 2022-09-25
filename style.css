@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'Brush Script MT', cursive;
 }
 
 body{
@@ -54,7 +54,7 @@ body{
     font-size: 1.3rem;
     position: relative;
     bottom:300px;
-    left:1350px;
+    left:1300px;
 }
 
 .darkLastHeading
@@ -165,7 +165,7 @@ h3{
 
 .lastFont
 {
-    font-family: "Brush Script MT";
+    font-family: "Brush Script MT",cursive;
     margin-left: 470px;
     font-size: 3rem;
     position: relative;

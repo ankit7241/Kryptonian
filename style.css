@@ -18,6 +18,52 @@ body{
     background-image:none !important;
 }
 
+.darkSubHeading
+{
+    color:white !important;
+}
+
+.darkHeading
+{
+    background-color: black !important;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+.darkHeadingBox
+{
+    background-color: black !important;
+    border-radius: 5px;
+    box-shadow: 5px 10px #0fa,
+      0 0 151px rgb(16, 21, 20) !important;
+}
+
+.modeColor{
+    color:white !important;
+}
+
+.mode{
+    color:black;
+    font-size: 1.3rem;
+    position: relative;
+    bottom:300px;
+    left:1500px;
+}
+
+.darkLastHeading
+{
+    background-color: black !important;
+    color: #0fa;
+}
+
 .lightDark
 {
     background-color: rgba(0, 0, 0, 0) !important;
@@ -47,8 +93,6 @@ body{
     text-decoration-color: rgb(192, 192, 192);
 }
 
-
-
 h2{
     
     font-size: 10rem;
@@ -58,7 +102,8 @@ h2{
 
 .subHeading
 {
-    margin: 50px 0 0 620px;
+    margin: 40px 0 0 620px;
+    padding-top: 15px;
     color:black;
 }
 
@@ -85,7 +130,6 @@ h3{
     align-items: center;
     border-radius: 5px;
 }
-
 
 .container .coin-price{
     display: flex;

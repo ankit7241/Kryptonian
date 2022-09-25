@@ -13,11 +13,12 @@ body{
 .heading
 {
     background-color:rgb(71, 71, 253);
+    color:white;
 }
 
 .headingContent
 {
-    background-color: rgb(248, 253, 115);
+    background-color: rgb(0, 150, 255);
 }
 
 h2{

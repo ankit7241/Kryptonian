@@ -30,9 +30,18 @@ h2{
 
 .subHeading
 {
-    margin: 50px 0 0 600px;
+    margin: 50px 0 0 620px;
+    color:black;
+    /* font-family: "Times New Roman"; */
     
 }
+
+.subsubHeading
+{
+    color:black;   
+}
+
+
 
 h3{
     margin-left: 600px;
@@ -64,7 +73,8 @@ h3{
     align-items: center;
     padding: 10px 20px;
     border-radius: 5px;
-    box-shadow: 0 0 3px #ccc;
+    box-shadow: 5px 10px;
+    /* box-shadow: 0 0 3px rgb(15, 3, 3); */
     margin: 100px;
 }
 
@@ -84,8 +94,9 @@ h3{
 
 .lastFont
 {
-    margin-left: 450px;
-    font-size: 2rem;
+    font-family: "Brush Script MT";
+    margin-left: 470px;
+    font-size: 3rem;
     position: relative;
     bottom:40px;
 }

@@ -1,5 +1,5 @@
 # Kryptonian
-A Crypto Dashboard Wesite.  
+A Crypto Dashboard Wesite showing current rate of different Cryptocurrencies with a fully functional Dark Mode.
 Technologies Used : HTML, CSS and VanillaJS.  
 Deployment Link :
 https://kryptonian-r95ngn3s5-ankit7241.vercel.app/
